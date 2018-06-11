@@ -20,7 +20,7 @@ module.exports = {
     edad:{
       type: "number"
     },
-    pokemons:{
+    pokemon:{
       collection:"Pokemon",
       via:"entrenadorId"
     }
